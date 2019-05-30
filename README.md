@@ -1,2 +1,2 @@
 # webpack-starter-kit
-A webpack starter kit respository for frontend developer 
+A webpack starter kit repository for frontend developer 
