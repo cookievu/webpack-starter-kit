@@ -1,1 +1,13 @@
-{"app":{"css":"css/app.22724768.css","js":"js/app.22724768.bundle.js"},"vendor":{"css":"css/vendor.cde48252.bundle.css","js":"js/vendor.cde48252.bundle.js"},"":{"txt":"img/abc.txt"}}
+{
+  "app": {
+    "css": "css/app.22724768.css",
+    "js": "js/app.22724768.bundle.js"
+  },
+  "vendor": {
+    "css": "css/vendor.cde48252.bundle.css",
+    "js": "js/vendor.cde48252.bundle.js"
+  },
+  "": {
+    "txt": "img/abc.txt"
+  }
+}
