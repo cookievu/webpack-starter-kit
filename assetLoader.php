@@ -4,12 +4,12 @@ function _loadAssetsJson() {
   return $assetContent ? json_decode($assetContent, true) : null;
 }
 
-function _getAssetsVendor($name) {
+function getAssetsVendor($name) {
   $assets = _loadAssetsJson();
-  return $assets['vendor'][$name];
+  return $assets ? $assets['vendor'][$name] : null;
 }
 
-function _getAssetsApp($name) {
+function getAssetsApp($name) {
   $assets = _loadAssetsJson();
-  return $assets['app'][$name];
+  return $assets ? $assets['app'][$name] : null;
 }
